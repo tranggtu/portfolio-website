@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>My Portfolio</title>
+</head>
+
+<body>
+
+    <main>
+    <!-- Icon Bar (Sidebar - hidden on small screens) -->
+    <nav class="icon-bar">
+        <!-- Avatar image in top left corner -->
+        <div class="avatar">
+            <img src="images/trang-tu-ava.png" alt="Avatar" style="width:100%">
+            <a href="#" class="home-button">
+                <i class="fa-solid fa-house"></i>
+                <p>HOME</p>
+            </a>
+
+            <a href="#about" class="about-button">
+                <i class="fa fa-user"></i>
+                <p>ABOUT</p>
+            </a>
+
+            <a href="#work" class="work-button">
+                <i class="fa-solid fa-computer-mouse"></i>
+                <p>WORK</p>
+            </a>
+
+            <a href="#contact" class="contact-button">
+                <i class="fa-solid fa-envelope"></i>
+                <p>CONTACT</p>
+            </a>
+        </nav>
+
+    <!-- Navbar on small screens (Hidden on medium and large screens) -->
+        <div class="top-hide-large-hide-medium" id="myNavbar">
+            <div class="bar-black-opacity-hover-opacity-off-center-small">
+                <a href="#" class="home-button" style="width:25% !important">HOME</a>
+                <a href="#about" class="bar-item-button" style="width:25% !important">ABOUT</a>
+                <a href="#work" class="bar-item-button" style="width:25% !important">WORK</a>
+                <a href="#contact" class="bar-item-button" style="width:25% !important">CONTACT</a>
+            </div>
+        </div>
+
+    <!-- Page Content -->
+    <div class="main-content-padding-large" id="main" >
+        <!-- Header/Home -->
+        <header class="center-introduction" id="home">
+            <h1 class="jumbo-name"><b>Hi! I'm Trang Tu!</b></h1>
+            <p>Bioinformatician</p>
+            <img src="images/Headshot.JPG" alt="boy" class="top-image" width="992" height="1108">
+        </header>
+
+    <!-- About Section -->
+    <div class="work-what-im-doing" id="about">
+        <h3 class="about-section">About Me</h3>
+        <hr style="width:200px" class="opacity">
+        <p>I am a Master's student at Northeastern University majoring in Bioinformatics, with a strong focus on bioinformatics and computational biology. </p>
+        <br> 
+        <p>I spent 8 years in Seoul, South Korea, where I earned my undergraduate degree in Life Science and Biotechnology at Yonsei University. After gaining three years of industry experience, I decided to move to the U.S. to further my studies, deepen my expertise, and become skilled with computational tools.</p>
+        <br> 
+        <p>With a strong foundation in both wet-lab techniques and programming, I specialize in connecting biological questions with data-driven solutions. I have a keen interest in cancer biology, especially oncology treatments, drug discovery and drug development. I unravel the story of data and make sense of the mystery by using computational methods—transforming raw biological information into meaningful insights that can drive research forward.</p>
+        <br> 
+        <p>To me, bioinformatics is more than just a career path—it's a powerful tool to protect the people I care about and and a means to contribute to the future of precision medicine.
+        </p>
+        <br> 
+
+        <h3 class="about-section">My Skills</h3>
+        <p class="skill-wide">Python (Programming)</p>
+        <div class="white-bar">
+            <div class="skill-bar-percentage" style="height:28px;width:90%"></div>
+        </div>
+        
+        <p class="skill-wide">R (Programming)</p>
+        <div class="white-bar">
+            <div class="skill-bar-percentage" style="height:28px;width:95%"></div>
+        </div>
+
+        <p class="skill-wide">Bash (Programming)</p>
+        <div class="white-bar">
+            <div class="skill-bar-percentage" style="height:28px;width:80%"></div>
+        </div>
+
+        <p class="skill-wide">SQL (Programming)</p>
+        <div class="white-bar">
+            <div class="skill-bar-percentage" style="height:28px;width:95%"></div>
+        </div>
+
+        <p> If you want to know more in details, hit this button below!</p>
+
+        <!-- Button to download resume -->
+        <button onclick="window.location.href='files/Trang Tu_Resume.pdf'" class="resume-large-button">
+            <i class="fa fa-download"></i> Download Resume
+        </button>
+
+    <!-- Work Section -->
+    <div class="work-grid" id="work">
+
+        <h3 class="about-section">What I'm doing</h3>
+        <hr style="width:200px" class="opacity">
+
+        <div class="work-box">
+            <a href="https://www.linkedin.com/in/trang-tu-983573136/" target="_blank" rel="noopener noreferrer" class="contact-link">
+            <i class="fa-brands fa-linkedin"></i>
+            <span>LinkedIn</span>
+            </a>
+            <p class="work-description">Connect with me professionally and explore my education, work experience, and achievements.</p>
+        </div>
+
+        <div class="work-box">
+            <a href="https://github.com/tranggtu" target="_blank" rel="noopener noreferrer" class="contact-link">
+            <i class="fa-brands fa-github"></i>
+            <span>GitHub</span>
+            </a>
+            <p class="work-description">See my coding projects, bioinformatics tools, and repositories.</p>
+        </div>
+
+        <div class="work-box">
+            <a href="mailto:tu.tra@northeastern.edu" class="contact-link">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Email</span>
+            </a>
+            <p class="work-description">Feel free to reach out to discuss opportunities, collaborations, or just say hi!</p>
+        </div>
+
+        <div class="work-box">
+            <a href="#" class="contact-link">
+            <i class="fa-solid fa-flask-vial"></i>
+            <span>Notes</span>
+            </a>
+            <p class="work-description">A growing collection of scientific thoughts, or just my random thoughts.</p>
+        </div>
+
+    </div>
+
+        <!-- Contact Section -->
+        <div class="contact-me-section" id="contact">
+            <h2 class="text-light-grey">Contact Me</h2>
+            <hr style="width:200px" class="opacity">
+
+            <div class="contact-info-section">
+                <p><i class="fa-solid fa-location-pin"></i> Boston, MA</p>
+                <p><i class="fa-solid fa-phone"></i> Phone: +1(781) 697-5909</p>
+                <p>
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="mailto:tu.tra@northeastern.edu">Email: tu.tra@northeastern.edu</a>
+                </p>
+            </div>
+            <br>
+            <p>Let's get in touch! Send me a message:</p>
+
+            <form action="/action_page.php" target="_blank">
+                <p><input class="message-box" type="text" placeholder="Name" required name="Name"></p>
+                <p><input class="message-box" type="text" placeholder="Email" required name="Email"></p>
+                <p><input class="message-box" type="text" placeholder="Subject" required name="Subject"></p>
+                <p><input class="message-box" type="text" placeholder="Message" required name="Message"></p>
+                <p>
+                    <button class="message-large-button" type="submit">
+                    <i class="fa fa-paper-plane"></i> Send Message
+                    </button>
+                </p>
+            </form>       
+        </div>
+
+    </main>
+
+ 
+</body>
+</html> 
