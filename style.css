@@ -189,13 +189,13 @@ a:hover {
 }
 
 .white-bar {
-  background-color: #555252;
+  background-color: #979494;
   width: 100%;
   margin-bottom: 10px;
 }
 
 .skill-bar-percentage {
-  background-color: var(--primary-color);
+  background-color: hsl(68,27%,28%);
   height: 28px;
 }
 
